@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="back_IA">
+        <item>(안심)자율하차 16:10</item>
+        <item>(임당)자율하차 17:20</item>
+        <item>안심/임당 15:00</item>
+        <item>안심/임당 15:30</item>
+        <item>안심/임당 16:30</item>
+        <item>안심/임당 17:00</item>
+        <item>안심역 17:20</item>
+        <item>안심역 17:40</item>
+        <item>임당역 18:00</item>
+        <item>임당역 18:45</item>
+        <item>안심/임당 19:10</item>
+        <item>안심/임당 20:10</item>
+        <item>안심/임당 21:25</item>
+    </string-array>
+</resources>

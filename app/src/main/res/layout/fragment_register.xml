@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterFragment">
+
+    <?xml version="1.0" encoding="utf-8"?>
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".register">
+
+        <ImageView
+            android:id="@+id/login_kiu_logo"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="100dp"
+            android:src="@drawable/baseline_add_24"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/edi_pw2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:ems="8"
+            android:hint="비밀번호 다시 입력"
+            android:inputType="text"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="@+id/edi_pw"
+            app:layout_constraintStart_toStartOf="@+id/edi_pw"
+            app:layout_constraintTop_toBottomOf="@+id/edi_pw"
+            tools:ignore="Autofill,HardcodedText" />
+
+        <EditText
+            android:id="@+id/ediNum_register"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="8dp"
+            android:ems="8"
+            android:hint="아이디"
+            android:inputType="text"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/login_kiu_logo"
+            tools:ignore="Autofill,HardcodedText" />
+
+        <EditText
+            android:id="@+id/edi_pw"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:ems="8"
+            android:hint="비밀번호"
+            android:inputType="text"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="@+id/ediNum_register"
+            app:layout_constraintStart_toStartOf="@+id/ediNum_register"
+            app:layout_constraintTop_toBottomOf="@+id/ediNum_register"
+            tools:ignore="Autofill,HardcodedText" />
+
+        <EditText
+            android:id="@+id/edi_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:ems="8"
+            android:hint="이름"
+            android:inputType="text"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="@+id/edi_pw2"
+            app:layout_constraintStart_toStartOf="@+id/edi_pw2"
+            app:layout_constraintTop_toBottomOf="@+id/edi_pw2"
+            tools:ignore="Autofill,HardcodedText" />
+
+        <Button
+            android:id="@+id/btn_regi"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="가입하기"
+            app:layout_constraintEnd_toEndOf="@+id/edi_name"
+            app:layout_constraintStart_toStartOf="@+id/edi_name"
+            app:layout_constraintTop_toBottomOf="@+id/edi_name"
+            tools:ignore="HardcodedText" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</FrameLayout>

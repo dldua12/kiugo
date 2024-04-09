@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="go_IA">
+        <item>안심역 08:20</item>
+        <item>안심역 09:20</item>
+        <item>안심역 09:25</item>
+        <item>안심역 09:30</item>
+        <item>안심역 10:00</item>
+        <item>안심역 10:30</item>
+        <item>안심역 11:00</item>
+        <item>임당역 08:10</item>
+        <item>임당역 09:05</item>
+        <item>임당역 09:20</item>
+        <item>임당역 09:25</item>
+        <item>임당역 09:50</item>
+        <item>임당역 10:25</item>
+        <item>임당역 11:00</item>
+        <item>임당역 11:30</item>
+    </string-array>
+</resources>

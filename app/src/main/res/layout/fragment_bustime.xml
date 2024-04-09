@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BustimeFragment">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientaion ="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginStart="12dp"
+        android:id="@+id/tv_title"
+        android:gravity="center"
+        android:text="등교시간 및 경유지 확인"
+        android:textSize="20dp"/>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/RVparent"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/tv_title"/>
+
+
+
+</RelativeLayout>
+
+</FrameLayout>

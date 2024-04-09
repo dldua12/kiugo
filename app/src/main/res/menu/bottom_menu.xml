@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/rv"
+        android:title="<-"
+        android:icon="@drawable/baseline_add_24"/>
+
+    <item
+        android:id="@+id/cl"
+        android:title="->"
+        android:icon="@drawable/baseline_add_24"
+        />
+
+    <item
+        android:title=""/>
+
+    <item
+        android:id="@+id/notice"
+        android:title="경유지"
+        android:icon="@drawable/baseline_add_24" />
+    <item
+        android:id="@+id/ph"
+        android:title="현황"
+        android:icon="@drawable/baseline_add_24" />
+</menu>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_reservation"
+            android:title="예약하기"
+            android:icon="@drawable/baseline_add_24"/>
+        <item
+            android:id="@+id/nav_cancle"
+            android:title="예약내역/취소"
+            android:icon="@drawable/baseline_add_24"/>
+        <item
+            android:id="@+id/nav_notice"
+            android:title="공지사항 및 이용안내"
+            android:icon="@drawable/baseline_add_24"/>
+        <item
+            android:id="@+id/nav_path"
+            android:title="버스시간표"
+            android:icon="@drawable/baseline_add_24"/>
+        <item
+            android:id="@+id/nav_vacation"
+            android:title="고향버스(학교 홈페이지)"
+            android:icon="@drawable/baseline_add_24"/>
+    </group>
+    <item
+        android:title="">
+        <menu>
+            <item
+                android:id="@+id/nav_logout"
+                android:title="로그아웃"
+                android:icon="@drawable/baseline_add_24"/>
+        </menu>
+    </item>
+
+</menu>

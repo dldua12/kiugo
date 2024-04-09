@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="go_da">
+        <item>1호차. 수성구</item>
+        <item>2호차. 북구</item>
+        <item>3호차. 달서구/화원</item>
+        <item>4호차. 남구/서구/수성구</item>
+        <item>5호차. 칠곡</item>
+        <item>6호차. 성서</item>
+        <item>7호차. 대구행복기숙사</item>
+    </string-array>
+</resources>
